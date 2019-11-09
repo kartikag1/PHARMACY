@@ -117,7 +117,7 @@ class shop extends JFrame
                   f.setMaximumSize(new Dimension(800, 800));
               f.setLayout(null);  
                   f.setVisible(true);  
-               
+               //notworking
                 }
             }
    
