@@ -8,9 +8,15 @@ public static void main(String args[])
 {
 try {
  JFrame f= new JFrame("TextField Example");
- JTextField t1;
+ JTextField t1,t2;
     t1=new JTextField("");
     t1.setBounds(50,100, 200,30);
+    t2=new JTextField("");
+    t2.setBounds(50,150, 200,30);
+    f.add(t2);
+
+
+
 
     JButton b=new JButton("kkk");
     b.setBounds(50,200,95,30);
@@ -19,7 +25,9 @@ try {
                        {
                            public void actionPerformed(ActionEvent e)
                            {String s1=t1.getText();
-                            System.out.println(s1);
+                             String s2 = t2.getText();
+
+                             System.out.println(s1+s2);
 
                            }
                         });
