@@ -1,3 +1,18 @@
+//to run this :
+
+//javac pharmacyy.java
+
+//java -cp ".;sqlite-jdbc-3.27.2.1.jar" pharmacyy
+
+
+
+
+
+
+
+
+
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
