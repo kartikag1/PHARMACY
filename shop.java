@@ -75,7 +75,7 @@ class shop extends JFrame
                                }
                                else
                                {
-                                // open login screen again for re-attempt
+                                // open login screen again for re-attempt so donot close the previous screen just put a pop-up for login
                                }
                            }
                         });

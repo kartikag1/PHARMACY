@@ -12,14 +12,15 @@ public class SQLiteJDBC {
          c = DriverManager.getConnection("jdbc:sqlite:C:/sqlite/db/kartikk.db");
          System.out.println("Opened database successfully");
 
-         stmt = c.createStatement();
+            // sample db query 
+         /*stmt = c.createStatement();
           sql = "CREATE TABLE IF NOT EXISTS COMPANY " +
                         "(ID INT PRIMARY KEY     NOT NULL," +
                         " NAME           TEXT    NOT NULL, " + 
                         " AGE            INT     NOT NULL, " + 
                         " ADDRESS        CHAR(50), " + 
                         " SALARY         REAL)"; 
-         stmt.executeUpdate(sql);
+         stmt.executeUpdate(sql);*/
 
           stmt = c.createStatement();
           sql = "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) " +
